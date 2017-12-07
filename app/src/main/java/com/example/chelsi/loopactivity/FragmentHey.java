@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 
 /**
@@ -17,7 +18,8 @@ import android.widget.EditText;
  */
 public class FragmentHey extends Fragment {
 
-
+    Button button;
+    TextView text;
     View rootView;
     public FragmentHey() {
         // Required empty public constructor
@@ -32,7 +34,7 @@ public class FragmentHey extends Fragment {
         // We're going to be referring to this several times
 
 
-
+        // Did not get a chance to correct this, just copy and pasted from my old work to try and get points! ya feel
 
         text = (EditText) rootView.findViewById(R.id.editText1);
         button = (Button) rootView.findViewById(R.id.button1);
