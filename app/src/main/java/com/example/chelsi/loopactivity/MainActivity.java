@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView textView;
+    private TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
